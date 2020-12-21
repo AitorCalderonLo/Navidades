@@ -7,6 +7,10 @@ public class Calculos {
 	private int a;
 	private int c;
 	private int m;
+	private int g;
+	private int q;
+	private int hola;
+	private int adios;
 	
 	public int suma(int x, int y) {
 		return x + y;

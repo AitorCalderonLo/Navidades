@@ -11,7 +11,7 @@ public class Calculos {
 	private int q;
 	private int hola;
 	private int adios;
-	
+
 	public int suma(int x, int y) {
 		return x + y;
 	}

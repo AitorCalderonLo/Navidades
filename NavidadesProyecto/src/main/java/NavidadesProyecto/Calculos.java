@@ -1,6 +1,12 @@
 package NavidadesProyecto;
 
 public class Calculos {
+	
+	private int g;
+	private int b;
+	private int a;
+	private int q;
+	private int c;
 	public int suma(int x, int y) {
 		return x + y;
 	}

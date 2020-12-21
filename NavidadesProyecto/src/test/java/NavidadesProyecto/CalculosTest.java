@@ -49,11 +49,11 @@ public class CalculosTest {
 	public void testDivisionIgual0() {
 		
 		x = 4;
-		y = 7;
+		y = 0;
 		
 		resultadoEsperadoDouble = -1;
 		resultadoDouble= calculos.division(x, y);
-		assertEquals(resultadoEsperadoDouble, resultadoDouble);
+		assertEquals(resultadoEsperadoDouble, resultadoDouble, 0.002);
 		
 	}
 
